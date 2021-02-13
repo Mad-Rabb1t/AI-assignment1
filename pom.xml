@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.alexr</groupId>
-    <artifactId>java-maven-template</artifactId>
+    <groupId>org.mad-rabbit</groupId>
+    <artifactId>informed-vs-uninformed-search</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -26,5 +26,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>es.usc.citius.hipster</groupId>
+            <artifactId>hipster-all</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
